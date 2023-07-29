@@ -12,11 +12,25 @@
 .bgVerso{
     background-image: url('images/bg-card-back.png');
     background-position: center;
+    background-size: cover;
 }
 
 .bgRecto{
     background-image: url('images/bg-card-front.png');
     background-position: center;
+    background-size: cover;
+}
+
+.heroBgDesktop{
+    background-image: url('images/bg-main-desktop.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.heroBgMobile{
+    background-image: url('images/bg-main-mobile.png');
+    background-position: center;
+    background-size: cover;
 }
 
 .numberInput {

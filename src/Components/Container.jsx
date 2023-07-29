@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Components
-import Bg from './Bg';
-import CardsContainer from './Card/CardsContainer';
+import CardsContainerMain from './CardContainerMain';
 import Form from './Form/Form';
 import Complete from './Form/Complete';
 
@@ -16,9 +15,8 @@ function Container() {
 
   return (
     <BrowserRouter>
-      <div className='w-full h-full flex flex-row'>
-          <Bg />
-          <CardsContainer cardNumber={cardNumber} cardName={cardName} expMonth={expMonth} expYear={expYear} cvc={cvc} />
+      <div className='w-full h-full flex lg:flex-row flex-col justify-between gap-10'>
+          <CardsContainerMain cardNumber={cardNumber} cardName={cardName} expMonth={expMonth} expYear={expYear} cvc={cvc} />
           <Routes>
             <Route path='interactive-card/' element={<Form setCardNumber={setCardNumber} setCardName={setCardName} setExpMonth={setExpMonth} setExpYear={setExpYear} setCvc={setCvc} />} />
             <Route path='interactive-card/Complete/' element={<Complete />} />
