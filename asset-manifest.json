@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/interactive-card/static/css/main.17f64605.css",
-    "main.js": "/interactive-card/static/js/main.073dbbac.js",
+    "main.css": "/interactive-card/static/css/main.b2ec29b6.css",
+    "main.js": "/interactive-card/static/js/main.373cdc3a.js",
     "static/js/787.2fa85f20.chunk.js": "/interactive-card/static/js/787.2fa85f20.chunk.js",
     "static/media/SpaceGrotesk-VariableFont_wght.ttf": "/interactive-card/static/media/SpaceGrotesk-VariableFont_wght.1036357b9651eff7d3dd.ttf",
     "static/media/bg-main-desktop.png": "/interactive-card/static/media/bg-main-desktop.806e7aa7b4dbc1d78bc3.png",
@@ -11,12 +11,12 @@
     "index.html": "/interactive-card/index.html",
     "static/media/icon-complete.svg": "/interactive-card/static/media/icon-complete.8fd757c0c5c44b1d597ca411400e046d.svg",
     "static/media/card-logo.svg": "/interactive-card/static/media/card-logo.8ca9036515954c3f8191559dce9c7bdf.svg",
-    "main.17f64605.css.map": "/interactive-card/static/css/main.17f64605.css.map",
-    "main.073dbbac.js.map": "/interactive-card/static/js/main.073dbbac.js.map",
+    "main.b2ec29b6.css.map": "/interactive-card/static/css/main.b2ec29b6.css.map",
+    "main.373cdc3a.js.map": "/interactive-card/static/js/main.373cdc3a.js.map",
     "787.2fa85f20.chunk.js.map": "/interactive-card/static/js/787.2fa85f20.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17f64605.css",
-    "static/js/main.073dbbac.js"
+    "static/css/main.b2ec29b6.css",
+    "static/js/main.373cdc3a.js"
   ]
 }
