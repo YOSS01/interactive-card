@@ -6,7 +6,7 @@ import cardLogo from '../../images/card-logo.svg';
 function Recto({cardNumber, cardName, expMonth, expYear}) {
 
   return (
-    <div className='bgRecto lg:w-[55vh] lg:h-[30vh] w-[45vh] min-h-[25vh] rounded-lg shadow-xl shadow-black/20 lg:-mr-[70%] -mr-0 -mb-[10%] -ml-[10%] lg:-ml-0 lg:-mt-0'>
+    <div className='bgRecto lg:w-[55vh] lg:h-[30vh] w-[45vh] min-h-[25vh] rounded-lg shadow-xl shadow-black/20 lg:-mr-[70%] -mr-0 -mb-[10%] lg:-mb-0 -ml-[10%] lg:-ml-0 lg:-mt-0'>
         <div className='lg:h-[50%] h-[40%] p-[5%] '>
             <img className='h-full' src={cardLogo} alt="" />
         </div>
